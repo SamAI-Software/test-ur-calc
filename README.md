@@ -37,7 +37,7 @@ Checklist to test how awesome is your calculator!
     <li>```1 + 2 + + ``` : : ```3```</li>
     <li>```1 + 2 + + = ``` : : ```6``` or ```5``` (optional) - Windows' calculator shows ```6``` </li>
     <li>```1 + - * / 2 = ``` : : ```0.5```</li>
-    <li>```* / + - 1 = = ``` :: ```-2```</li>
+    <li>```* / + - 1 = = ``` : : ```-2```</li>
   </ol>
 
 #Errors
