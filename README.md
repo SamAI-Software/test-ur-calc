@@ -33,7 +33,10 @@ Checklist to test how awesome is your calculator!
 
 #Math operators
   <ol>
+    <li>```1 + 1 + + ``` : : ```2```</li>
+    <li>```1 + 1 + + = ``` : : ```4``` or ```3``` (optional) - Windows' calculator shows ```4``` </li>
     <li>```1 + - * / 2 = ``` : : ```0.5```</li>
+
   </ol>
 
 #Errors
