@@ -5,14 +5,14 @@ Checklist to test how awesome is your calculator!
 
 <p> Left column is your input  : : Right column is an expected output on the screen. </p>
 
-# Zero
+# Zero [```0```]
   <ol>
     <li>```0 0 ``` : : ```0```</li>
     <li>```0 1 ``` : : ```1```</li>
     <li>```0 1 0``` : : ```10```</li>
   </ol>
 
-# Dot
+# Dot [```.```]
    <ol>
     <li>```. ``` : : ```0.```</li>
     <li>```.. ``` : : ```0.```</li>
@@ -24,7 +24,7 @@ Checklist to test how awesome is your calculator!
     <li>```. 0 . 1 .. 20 = ``` : : ```0.012```</li>
   </ol>
 
-#Equal sign
+#Equal sign [```=```]
   <ol>
     <li>```+ 1 = ``` : : ```1```</li>
     <li>```1 + = ``` : : ```2```</li>
@@ -32,7 +32,7 @@ Checklist to test how awesome is your calculator!
     <li>```1 + 2 = = ``` : : ```5```</li>
   </ol>
 
-#Math operators
+#Math operators [```+ - * / ```]
   <ol>
     <li>```1 + 2 + + ``` : : ```3```</li>
     <li>```1 + 2 + + = ``` : : ```6``` or ```5``` (optional) - Windows' calculator shows ```6``` </li>
@@ -40,11 +40,14 @@ Checklist to test how awesome is your calculator!
     <li>```* / + - 1 = = ``` : : ```-2```</li>
   </ol>
 
-#Errors
+#Double Sign [```±```]
   <ol>
-    <li>```1 / 0 = ``` : : ```Cannot divide by zero```</li>
-    <li>```1 / 0 = 2 ``` : : ```2``` (optional) - Windows' calculator require ```C```  or ```CE```  after ```1/0=``` </li>
-  </ol>  
+    <li>```± 1 ``` : : ```1```</li>
+    <li>```1 ± ``` : : ```-1```</li>
+    <li>```1 + ± 3 = ``` : : ```4``` or ```2``` or ```-13``` (optional) - Windows' calculator shows ```4``` </li>
+    <li>```1 ± - 3 ± = ``` : : ```2```</li>
+    <li>```2 * 2 = ± = ``` : : ```-8``` or ```16``` (optional) - Windows' calculator shows ```-8``` </li>
+  </ol>
 
 #Round-up
   <ol>
@@ -52,3 +55,9 @@ Checklist to test how awesome is your calculator!
     <li>```2 / 7 = ``` : : ```0.2857142857142857```</li>
     <li>```1 . 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1  * 7 ``` : : ```7.000000000000007``` (its 14 times ```0``` in each number)</li>
   </ol>
+  
+#Errors
+  <ol>
+    <li>```1 / 0 = ``` : : ```Cannot divide by zero```</li>
+    <li>```1 / 0 = 2 ``` : : ```2``` (optional) - Windows' calculator requires ```C```  or ```CE```  after ```1/0=``` </li>
+  </ol>  
