@@ -27,6 +27,7 @@ Checklist to test how awesome is your calculator!
 #Equal sign [```=```]
   <ol>
     <li>```+ 1 = ``` : : ```1```</li>
+    <li>```- 1 = ``` : : ```-1```</li>
     <li>```1 + = ``` : : ```2```</li>
     <li>```1 + 2 = 4 ``` : : ```4```</li>
     <li>```1 + 2 = = ``` : : ```5```</li>
@@ -59,5 +60,5 @@ Checklist to test how awesome is your calculator!
 #Errors
   <ol>
     <li>```1 / 0 = ``` : : ```Cannot divide by zero```</li>
-    <li>```1 / 0 = 2 ``` : : ```2``` (optional) - Windows' calculator requires ```C```  or ```CE```  after ```1/0=``` </li>
+    <li>```1 / 0 = 1 + 1 = ``` : : ```2``` (optional) - Windows' calculator requires ```C```  or ```CE```  after ```1/0=``` </li>
   </ol>  
