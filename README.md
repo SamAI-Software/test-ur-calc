@@ -53,8 +53,14 @@ Checklist to test how awesome is your calculator!
 #Round-up
   <ol>
     <li>```1 . 1 * 7  = ``` : : ```7.7```</li>
+    <li>```2 . 1 + 2 . 2 = ``` : : ```4.3```</li>
     <li>```2 / 7 = ``` : : ```0.2857142857142857```</li>
     <li>```1 . 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1  * 7 ``` : : ```7.000000000000007``` (its 14 times ```0``` in each number)</li>
+  </ol>
+
+#Clear Entry [```CE```]
+  <ol>
+    <li>```2 + 1 CE - * 5 = ``` : : ```10```</li>
   </ol>
   
 #Errors
