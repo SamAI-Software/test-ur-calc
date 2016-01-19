@@ -66,5 +66,6 @@ Checklist to test how awesome is your calculator!
 #Errors
   <ol>
     <li>```1 / 0 = ``` : : ```Cannot divide by zero```</li>
-    <li>```1 / 0 = 1 + 1 = ``` : : ```2``` (optional) - Windows' calculator requires ```C```  or ```CE```  after ```1/0=``` </li>
+    <li>```1 / 0 = 3 4 ``` : : ```34``` or ```Cannot divide by zero``` (optional) - Windows' calculator requires ```C```  or ```CE```  after ```1/0=``` </li>
+    <li>```1 / 0 = 1 + 1 = ``` : : ```2``` or ```Cannot divide by zero``` (optional)</li>
   </ol>  
