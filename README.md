@@ -1,8 +1,9 @@
 # Test Your Calculator!
-Checklist to test how awesome is your calculator!
-
-<p>If you want to copy a simple calculator like Windows', then you should try this sequences.</p>
-
+<p>Checklist to test how awesome is your calculator!</p>
+<br>
+<p>If you want to copy a simple calculator like Windows Standard, then you should try this sequences.</p>
+<p>Note: this calculator does not follow operator precedence.</p>
+<br>
 <p> Left column is your input  : : Right column is an expected output on the screen. </p>
 
 # Zero [```0```]
